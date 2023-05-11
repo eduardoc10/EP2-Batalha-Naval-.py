@@ -62,7 +62,7 @@ from random import randint
 
 Tabuleiro_tamanho=10
 
-def posicao_valida(tabuleiro, posicoes):
+def posicao_valida2(tabuleiro, posicoes):
     for pos in posicoes:
         linha, coluna = pos
         if (linha < 0 or linha > 9) or (coluna < 0 or coluna > 9) or (tabuleiro[linha][coluna] != "-"):
